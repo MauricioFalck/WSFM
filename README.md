@@ -3,6 +3,8 @@ Copies the images from the Windows Spotlight service to be used as wallpapers
 
 This small program gets the images from the Windows Spotlight service deployed locally and copies to a specific folder as jpg. 
 
+The application parses the images and categorizes the images in landscape and portrait and copies them to different folders. 
+
 Many improvements still pending, such as:
 - configure the destination path (now it is fixed)
 - log sent to Event Viewer, but the creation of the Application branch needs to be done manually
